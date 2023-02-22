@@ -7,10 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yahor Piskunou",
+  "publishConfig": {
+    "@overkektus:registry": "https://npm.pkg.github.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.14.0",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "inversify": "^6.0.1"
   }
 }
